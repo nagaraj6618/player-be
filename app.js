@@ -26,7 +26,7 @@ app.use('/api/v1/dance', fileRoute)
 app.use('/api/v1/auth', loginRoute)
 
 
-app.get('', (req, res) => {
+app.get('/', (req, res) => {
    res.status(200).json({ message: 'working..' })
 })
 
